@@ -16,11 +16,12 @@ class MainActivity : AppCompatActivity() {
         val rollButton: Button = findViewById(R.id.Roll_Dice_Button)
         //this serves as a function but without the ()
         rollButton.setOnClickListener {
-           val rollResultText : TextView = findViewById(R.id.Dice_Roll_Result)
-           val dice = Dice(20)
+            val rollResultText: TextView = findViewById(R.id.Dice_Roll_Result)
+            //instantiates the dice class and performs the roll function to display random number
+            //can also pass it a number of sides
+            val dice = Dice(20)
             rollResultText.text = dice.rollDice()
         }
-
 
 
     }

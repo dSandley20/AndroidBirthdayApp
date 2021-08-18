@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.happybirthdayapp.models.Dice
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,8 +17,8 @@ class MainActivity : AppCompatActivity() {
         //this serves as a function but without the ()
         rollButton.setOnClickListener {
            val rollResultText : TextView = findViewById(R.id.Dice_Roll_Result)
-           val sidesRange : IntRange = 1..6
-           rollResultText.text = sidesRange.random().toString()
+           val dice = Dice(20)
+            rollResultText.text = dice.rollDice()
         }
 
 

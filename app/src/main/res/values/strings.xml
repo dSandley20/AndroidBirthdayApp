@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Learning Kotlin App</string>
     <string name="roll">Roll</string>
+    <string name="dice_image_one">image view for dice image</string>
 </resources>

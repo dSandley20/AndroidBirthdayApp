@@ -2,7 +2,7 @@ package com.example.happybirthdayapp
 
 import android.os.Bundle
 import android.widget.Button
-import android.widget.Toast
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
@@ -15,8 +15,9 @@ class MainActivity : AppCompatActivity() {
         val rollButton: Button = findViewById(R.id.Roll_Dice_Button)
         //this serves as a function but without the ()
         rollButton.setOnClickListener {
-            val toast = Toast.makeText(this, "Dice Rolled!", Toast.LENGTH_SHORT)
-            toast.show()
+           val rollResultText : TextView = findViewById(R.id.Dice_Roll_Result)
+           val sidesRange : IntRange = 1..6
+           rollResultText.text = sidesRange.random().toString()
         }
 
 

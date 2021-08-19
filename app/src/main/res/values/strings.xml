@@ -3,4 +3,12 @@
     <string name="happy_25th_birthday_me">Happy 25th Birthday Me!</string>
     <string name="birthday_cupcake_image_for_app">birthday cupcake image for app</string>
     <string name="from_danny">From Danny!</string>
+    <string name="cost_of_service">Cost of Service</string>
+    <string name="amazing_20">Amazing (20%)</string>
+    <string name="good_15">Good (15%)</string>
+    <string name="meh_10">Meh (10%)</string>
+    <string name="round_up_tip">Round up tip?</string>
+    <string name="tip_amount">Tip Amount</string>
+    <string name="calculate">Calculate</string>
+    <string name="round_up_tip">Round up tip?</string>
 </resources>

@@ -4,45 +4,79 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
+    <EditText
+        android:id="@+id/service_text_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:hint="@string/cost_of_service"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/service_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="@string/cost_of_service"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/service_text_field" />
+
+    <RadioGroup
+        android:id="@+id/tip_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/fifteen_percent_tip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/service_question">
+        <!--Can't use numbers in id's -->
+        <RadioButton
+            android:id="@+id/twenty_percent_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amazing_20"/>
+        <RadioButton
+            android:id="@+id/fifteen_percent_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/good_15"/>
+        <RadioButton
+            android:id="@+id/ten_percent_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/meh_10"/>
+    </RadioGroup>
+    <Switch
+        android:id="@+id/round_tip_toggle"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:contentDescription="@string/birthday_cupcake_image_for_app"
-        android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/round_up_tip"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/androidparty_bg" />
-
-    <TextView
-        android:id="@+id/happy_birthday_message"
-        android:layout_width="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tip_options"/>
+    <Button
+        android:id="@+id/calculate_tip_button"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:fontFamily="cursive"
-        android:text="@string/happy_25th_birthday_me"
-        android:textAlignment="viewStart"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="@color/black"
-        android:textStyle="bold"
+        android:text="@string/calculate"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toBottomOf="@id/round_tip_toggle"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
     <TextView
-        android:id="@+id/signature_text"
+        android:id="@+id/tip_amount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/from_danny"
-        android:textAlignment="viewEnd"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/calculate_tip_button"
+        android:text="@string/tip_amount"
+         />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

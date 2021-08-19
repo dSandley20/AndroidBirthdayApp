@@ -8,7 +8,6 @@
     <string name="good_15">Good (15%)</string>
     <string name="meh_10">Meh (10%)</string>
     <string name="round_up_tip">Round up tip?</string>
-    <string name="tip_amount">Tip Amount</string>
+    <string name="tip_amount">Tip Amount:</string>
     <string name="calculate">Calculate</string>
-    <string name="round_up_tip">Round up tip?</string>
 </resources>

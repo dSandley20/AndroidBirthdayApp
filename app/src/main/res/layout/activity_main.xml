@@ -13,10 +13,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:hint="@string/cost_of_service"
+        android:importantForAutofill="no"
         android:inputType="numberDecimal"
         app:layout_constraintStart_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/service_question"
@@ -39,18 +39,21 @@
             android:id="@+id/twenty_percent_tip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/amazing_20"/>
+            android:text="@string/amazing_20" />
+
         <RadioButton
             android:id="@+id/fifteen_percent_tip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/good_15"/>
+            android:text="@string/good_15" />
+
         <RadioButton
             android:id="@+id/ten_percent_tip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/meh_10"/>
+            android:text="@string/meh_10" />
     </RadioGroup>
+
     <Switch
         android:id="@+id/round_tip_toggle"
         android:layout_width="0dp"
@@ -59,24 +62,22 @@
         android:text="@string/round_up_tip"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tip_options"/>
+        app:layout_constraintTop_toBottomOf="@id/tip_options" />
+
     <Button
         android:id="@+id/calculate_tip_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/calculate"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/round_tip_toggle"
         app:layout_constraintEnd_toEndOf="parent"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/round_tip_toggle" />
+
     <TextView
         android:id="@+id/tip_amount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/calculate_tip_button"
-        android:text="@string/tip_amount"
-         />
-
-
+        tools:text="Tip Amount: $10"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

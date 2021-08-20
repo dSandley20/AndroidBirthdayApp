@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HappyBirthdayApp</string>
+    <string name="app_name">Learning Kotlin App</string>
     <string name="happy_25th_birthday_me">Happy 25th Birthday Me!</string>
     <string name="birthday_cupcake_image_for_app">birthday cupcake image for app</string>
     <string name="from_danny">From Danny!</string>
@@ -8,4 +8,6 @@
     <string name="go_to_dice_roller">Go to Dice Roller</string>
     <string name="go_to_birthday_card">Go To Birthday Card</string>
     <string name="welcome_to_beginner_app">Welcome to beginner app!</string>
+    <string name="roll">Roll</string>
+    <string name="dice_image_one">image view for dice image</string>
 </resources>

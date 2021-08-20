@@ -10,4 +10,11 @@
     <string name="welcome_to_beginner_app">Welcome to beginner app!</string>
     <string name="roll">Roll</string>
     <string name="dice_image_one">image view for dice image</string>
+    <string name="cost_of_service">Cost of Service</string>
+    <string name="amazing_20">Amazing (20%)</string>
+    <string name="good_15">Good (15%)</string>
+    <string name="meh_10">Meh (10%)</string>
+    <string name="round_up_tip">Round up tip?</string>
+    <string name="tip_amount">Tip Amount:</string>
+    <string name="calculate">Calculate</string>
 </resources>

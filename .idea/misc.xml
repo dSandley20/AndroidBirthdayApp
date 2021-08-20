@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/danie/AndroidStudioProjects/HappyBirthdayApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/HappyBirthdayApp/app/src/main/res/layout/activity_birthday.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/HappyBirthdayApp/app/src/main/res/layout/activity_dice_roll.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/HappyBirthdayApp/app/src/main/res/layout/activity_list_view.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/HappyBirthdayApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/HappyBirthdayApp/app/src/main/res/layout/activity_main_2.xml" value="0.33" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/HappyBirthdayApp/app/src/main/res/layout/activity_tip_calculator.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/HappyBirthdayApp/app/src/main/res/layout/list_item.xml" value="0.14673913043478262" />
       </map>
     </option>
   </component>

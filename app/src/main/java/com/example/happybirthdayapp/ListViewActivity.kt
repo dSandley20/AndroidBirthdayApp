@@ -2,13 +2,13 @@ package com.example.happybirthdayapp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.happybirthdayapp.databinding.ActivityMainBinding
+import com.example.happybirthdayapp.databinding.ActivityListViewBinding
 
-class MainActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityMainBinding
+class ListViewActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityListViewBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityListViewBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
     }

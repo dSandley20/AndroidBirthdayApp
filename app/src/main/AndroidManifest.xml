@@ -18,6 +18,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- Birthday Card Activity-->
+        <activity
+            android:name=".BirthdayActivity"
+            android:exported="true" />
+        <!-- Dice Roll Activity   -->
+        <activity
+            android:name=".DiceRollActivity"
+            android:exported="true" />
+        <!--        List View Activity-->
+        <activity
+            android:name=".ListViewActivity"
+            android:exported="true" />
+        <!--        Tip Calculator Activity-->
+        <activity
+            android:name=".TipCalculatorActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

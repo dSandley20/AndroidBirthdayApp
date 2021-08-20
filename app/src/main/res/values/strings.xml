@@ -3,4 +3,9 @@
     <string name="happy_25th_birthday_me">Happy 25th Birthday Me!</string>
     <string name="birthday_cupcake_image_for_app">birthday cupcake image for app</string>
     <string name="from_danny">From Danny!</string>
+    <string name="go_to_list_view">go to list view</string>
+    <string name="go_to_tip_calculator">go to tip calculator</string>
+    <string name="go_to_dice_roller">Go to Dice Roller</string>
+    <string name="go_to_birthday_card">Go To Birthday Card</string>
+    <string name="welcome_to_beginner_app">Welcome to beginner app!</string>
 </resources>

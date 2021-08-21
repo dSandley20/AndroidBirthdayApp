@@ -28,4 +28,12 @@
     <string name="affirmation9">Things will unfold at precisely the right time.</string>
     <string name="affirmation10">I will be present in all the moments that this day brings.</string>
     <string name="go_to_auth">Go To Auth</string>
+    <string name="auth_endpoint_tester">Auth Endpoint Tester</string>
+    <string name="textview">TextView</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="auth_name_text">Name:</string>
+    <string name="password_text">Password:</string>
+    <string name="log_in">Log In</string>
+    <string name="please_note_that_you_need_to_have_the_snowboarding_api_running_check_github_in_order_for_this_functionality_to_work">Please note that you need to have the Snowboarding-API running (check github) in order for this functionality to work.</string>
 </resources>

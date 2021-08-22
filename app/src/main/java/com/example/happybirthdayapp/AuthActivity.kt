@@ -20,7 +20,7 @@ class AuthActivity: AppCompatActivity() {
 
     fun loginUser(){
         //make api request
-        val api = Api(this, "POST" ,"/authenticate")
+        val api = Api(this, "GET" ,"/users")
         api.makeRequest()
     }
 }

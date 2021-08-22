@@ -7,7 +7,7 @@ import com.android.volley.toolbox.Volley
 
 open class Api(private val context : Context, private var methodType : String, private var endUrl : String) {
     private val queue = Volley.newRequestQueue(context)
-    private val startingUrl : String = "localhost:8080"
+    private val startingUrl : String = "http://127.0.0.1:"
 
     fun makeRequest(){
 
@@ -26,7 +26,7 @@ open class Api(private val context : Context, private var methodType : String, p
                 //console log the response just as proof as concept
                 println(response)
             },
-            { println("API Request failed")})
+            {err -> println(err)})
 
 // Add the request to the RequestQueue.
         queue.add(stringRequest)

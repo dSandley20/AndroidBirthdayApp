@@ -7,7 +7,7 @@ import com.android.volley.toolbox.Volley
 
 open class Api(private val context : Context, private var methodType : String, private var endUrl : String) {
     private val queue = Volley.newRequestQueue(context)
-    private val startingUrl : String = "localhost:8080/"
+    private val startingUrl : String = "localhost:8080"
 
     fun makeRequest(){
 

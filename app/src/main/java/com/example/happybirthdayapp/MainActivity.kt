@@ -34,5 +34,10 @@ class MainActivity : AppCompatActivity() {
             val intent : Intent = Intent(this, TipCalculatorActivity::class.java)
             startActivity(intent)
         }
+        //Auth Login Activity
+        binding.authButton.setOnClickListener{
+            val intent : Intent = Intent(this, AuthActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
